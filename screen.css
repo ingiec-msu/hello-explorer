@@ -30,18 +30,15 @@ header{
   color: black;
 }
 
-.webTitle{
+h1{
   display: flex;
   align-items: center;
-}
-
-
-.webTitle span{
   color: #f7faf9;
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
   font-family: cursive;
+  color: black;
 }
 
 .navLinks{
@@ -79,14 +76,11 @@ header{
   color: #f0318d;
 }
 
-h1 {
-  color: black;
-}
 
 h2 {
-  color: lightpink;
+  color: white;
 }
 
 h3 {
-  color: lightpink;
+  color: white;
 }
