@@ -55,7 +55,7 @@ h1{
   transition: all .50s ease;
 }
 
-.navLinks a.hover, .navlinks a.active{
+.navLinks a:hover, .navlinks a.active{
   color: #f0318d
 }
 
