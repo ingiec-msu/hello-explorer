@@ -2,3 +2,9 @@
 a.active {
     font-weight: bold;
 }
+
+#example1 {
+  background: url(galaxy.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
