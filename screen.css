@@ -4,7 +4,7 @@
     margin: 0;
     font-family: 'Poppins';
     box-sizing: border-box;
-    text-decoration; none;
+    text-decoration: none;
     list-style: none;
 }
 
@@ -25,7 +25,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2b1b42 /*place holder */
+  background: #2b1b42; /*place holder */
   padding: 28px 9%;
   transition: all .50% ease;
 }
@@ -54,7 +54,7 @@ header{
 }
 
 .navLinks{
-  color: #f7faf9
+  color: #f7faf9;
   font-size: 1.1rem;
   font-weight: 500;
   padding: 5px 0;
