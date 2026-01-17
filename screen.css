@@ -88,18 +88,20 @@ h1 a {
 }
 
 .content-container {
-  display: flex;          
-  align-items: center;     
+  display: flex;           
+  align-items: flex-start; 
+  gap: 30px;               
   padding: 20px;
 }
 
 .description {
-  flex: 1;                
+  flex: 1;                 
+  color: white;            
 }
 
 .image img {
   max-width: 300px;        
-  height: auto;           
+  height: auto;
   border-radius: 10px;     
 }
 
