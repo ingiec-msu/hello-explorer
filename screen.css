@@ -87,6 +87,22 @@ h1 a {
   color: #f0318d;
 }
 
+.content-container {
+  display: flex;          
+  align-items: center;     
+  padding: 20px;
+}
+
+.description {
+  flex: 1;                
+}
+
+.image img {
+  max-width: 300px;        
+  height: auto;           
+  border-radius: 10px;     
+}
+
 
 h2 {
   color: white;
