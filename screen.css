@@ -25,9 +25,10 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2b1b42; /*place holder */
+  background: #f7faf9; /*place holder */
   padding: 28px 9%;
   transition: all .50% ease;
+  color: black;
 }
 
 .logo{
@@ -67,7 +68,7 @@ header{
 }
 
 .main{
-  dispaly: flex;
+  display: flex;
   align-items: center;
 }
 
