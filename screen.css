@@ -45,7 +45,7 @@ h1{
   display: flex;
 }
 
-.navLinks{
+.navLinks a{
   color: #f7faf9;
   font-size: 1.1rem;
   font-weight: 500;
