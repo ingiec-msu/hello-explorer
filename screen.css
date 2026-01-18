@@ -87,7 +87,7 @@ h1 a {
   color: #f0318d;
 }
 
-.content-container {
+.content {
   display: flex;           
   align-items: flex-start; 
   gap: 30px;               
