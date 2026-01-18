@@ -10,45 +10,48 @@
 body {
   min-height: 100vh;
   padding-top: 150px;
+
+  /* Sets up the bacground with the galaxy image */
   background: url(galaxy.jpg);
   background-repeat: repeat;
   background-size: auto;
 }
 
-/* Header setup */
+/* Postioning elements to help create the navigation bar */
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #f7faf9; /* or semi-transparent if you want the galaxy to show */
+  background: #f7faf9; 
   padding: 20px 0;
   z-index: 1000;
 
   display: flex;
-  justify-content: center; /* centers header-center container horizontally */
+  justify-content: center; 
   align-items: center;
 }
 
-/* Container for title + nav */
+/* Creates the container for the title + navigation links; centering it in the middle */
 .header-center {
   display: flex;
-  flex-direction: column; /* stack title above nav */
-  align-items: center;    /* center horizontally */
+  flex-direction: column; 
+  align-items: center; 
 }
 
-/* Title styling */
+/* Styling rules for the title */
 h1 {
   margin-bottom: 10px;   /* space between title and links */
   font-size: 1.8rem;
   text-transform: uppercase;
 }
 
+/* Styling rules for the h1 */
 h1 a {
   color: black;
   text-decoration: none;
 }
 
-/* Nav styling */
+/* Styling rules for the navigation bar */
 .navLinks {
   display: flex;
   gap: 30px; /* space between links */
@@ -56,6 +59,7 @@ h1 a {
   margin: 0;
 }
 
+/* Styling rules for the untouched state of navigation links */
 .navLinks a {
   color: black;
   font-size: 1.1rem;
@@ -63,6 +67,7 @@ h1 a {
   transition: all 0.3s ease;
 }
 
+/* Creates the hover effect for the navigation links */
 .navLinks a:hover,
 .navLinks a.active {
   color: #f0318d;
@@ -87,6 +92,7 @@ h1 a {
   color: #f0318d;
 }
 
+/* Main content alignment styling */
 .content {
   display: flex;           
   align-items: flex-start; 
@@ -94,18 +100,20 @@ h1 a {
   padding: 20px;
 }
 
+/* Styling rules for the description */
 .description {
   flex: 1;                 
   color: white;            
 }
 
+/* Sizing for the image */
 .image img {
   max-width: 500px;        
   height: auto;
   border-radius: 10px;     
 }
 
-
+/* Styling rules for h2 */
 h2 {
   color: white;
   text-align: center;
@@ -113,6 +121,7 @@ h2 {
   font-size: 30px;
 }
 
+/* Styling rules for the p texts */
 p {
   color: white;
   text-align: center;
